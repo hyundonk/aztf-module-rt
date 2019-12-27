@@ -22,7 +22,7 @@ variable "next_hop_type" {
 
 }
 
-variable "next_hop_ip_in_address" {
+variable "next_hop_ip_in_ip_address" {
 
 }
 
