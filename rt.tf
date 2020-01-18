@@ -1,6 +1,6 @@
 
 resource "azurerm_route_table" "rt" {
-  name                      = "rt-${var.name}"
+  name                      = var.name
   location                  = var.location
   resource_group_name       = var.rg
 
