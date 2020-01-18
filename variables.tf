@@ -14,6 +14,10 @@ variable "tags" {
   description = "(Required) Tags to be applied to the IP address to be created"
 }
 
+variable "routes" {
+
+}
+/*
 variable "address_prefix" {
 
 }
@@ -25,5 +29,5 @@ variable "next_hop_type" {
 variable "next_hop_in_ip_address" {
 
 }
-
+*/
 
