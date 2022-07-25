@@ -17,6 +17,11 @@ variable "tags" {
 variable "routes" {
 
 }
+
+variable "disable_bgp_route_propagation" {
+  default = false 
+}
+
 /*
 variable "address_prefix" {
 
